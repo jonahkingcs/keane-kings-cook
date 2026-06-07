@@ -25,20 +25,20 @@ export default async function RecipesPage() {
                     <div className="px-4 mt-2">
                         <h3 className="text-text text-[14pt]">Diets</h3>
                         <div className="mt-2">
-                            <input id="food" type="checkbox" value="" className="w-4 h-4 bg-olive"></input>
-                            <label htmlFor="food" className="select-none mr-4 ms-2 text-sm font-medium text-heading">Vegetarian</label>
+                            <input id="vegetarian" type="checkbox" value="" className="w-4 h-4 bg-olive"></input>
+                            <label htmlFor="vegetarian" className="select-none mr-4 ms-2 text-sm font-medium text-heading">Vegetarian</label>
                         </div>
                         <div>
-                            <input id="food" type="checkbox" value="" className="w-4 h-4 bg-olive"></input>
-                            <label htmlFor="food" className="select-none mr-4 ms-2 text-sm font-medium text-heading">Vegan</label>
+                            <input id="vegan" type="checkbox" value="" className="w-4 h-4 bg-olive"></input>
+                            <label htmlFor="vegan" className="select-none mr-4 ms-2 text-sm font-medium text-heading">Vegan</label>
                         </div>
                         <div>
-                            <input id="food" type="checkbox" value="" className="w-4 h-4 bg-olive"></input>
-                            <label htmlFor="food" className="select-none mr-4 ms-2 text-sm font-medium text-heading">Dairy-Free</label>
+                            <input id="dairy-free" type="checkbox" value="" className="w-4 h-4 bg-olive"></input>
+                            <label htmlFor="dairy-free" className="select-none mr-4 ms-2 text-sm font-medium text-heading">Dairy-Free</label>
                         </div>
                         <div>
-                            <input id="food" type="checkbox" value="" className="w-4 h-4 bg-olive"></input>
-                            <label htmlFor="food" className="select-none mr-4 ms-2 text-sm font-medium text-heading">Gluten-Free</label>
+                            <input id="gluten-free" type="checkbox" value="" className="w-4 h-4 bg-olive"></input>
+                            <label htmlFor="gluten-free" className="select-none mr-4 ms-2 text-sm font-medium text-heading">Gluten-Free</label>
                         </div>
                     </div>
 
