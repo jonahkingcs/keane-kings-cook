@@ -59,19 +59,20 @@ export default async function RecipesPage() {
                         {recipes.map((recipe) => (
                             <article
                                 key={recipe.slug}
-                                className="col-span-1 p-4"
-                                >
-                                {recipe.hero_image_url ? (
-                                    <img
-                                    src={recipe.hero_image_url}
-                                    alt={recipe.title}
-                                    className="w-full h-48 object-cover mb-4"
-                                    />
-                                ) : (
-                                    <div
-                                    className="w-full h-48 bg-sage flex items-center justify-center mb-4"
-                                    />
-                                )}
+                                className="col-span-1 p-4">
+                                <Link href={`/recipes/${recipe.slug}`} className="block">
+                                    {recipe.hero_image_url ? (
+                                        <img
+                                        src={recipe.hero_image_url}
+                                        alt={recipe.title}
+                                        className="w-full h-48 object-cover mb-4"
+                                        />
+                                    ) : (
+                                        <div
+                                        className="w-full h-48 bg-sage flex items-center justify-center mb-4"
+                                        />
+                                    )}
+                                </Link>
                                 <div className="grid grid-cols-2">
                                     <h2 className="text-xl font-bold text-olive mb-2 hover:text-olive/80 transition">
                                         <Link href={`/recipes/${recipe.slug}`}>
